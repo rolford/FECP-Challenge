@@ -1,0 +1,125 @@
+/* Main Element */
+
+body {
+    Font-Family: 'Muli', Sans-Serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    Font-Family: 'Merriweather', Serif;
+    text-align: center;
+}
+
+section {
+    border: 2px solid slategray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.style-section>p {
+    text-align: center;
+}
+
+
+/* Color Section */
+
+.color-container {
+    width: 100%;
+}
+
+.swatch {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.color-parent {
+    background-color: #704147;
+    color: lightgrey;
+}
+
+.color-light1 {
+    background-color: #F2D5D9;
+}
+
+.color-light2 {
+    background-color: #F08B98;
+}
+
+.color-dark1 {
+    background-color: #706365;
+    color: lightgrey;
+}
+
+.color-dark2 {
+    background-color: #c37d86;
+}
+
+.color-neutral1 {
+    background-color: #e4d2b4;
+}
+
+
+/* Font Section */
+
+.font-container {
+    width: 100%;
+}
+
+.fontbox {
+    display: inline-block;
+    max-width: 33%;
+}
+
+.fontbox>h3 {
+    text-decoration: underline;
+}
+
+.font-container-jp>h3 {
+    text-decoration: underline;
+}
+
+.fontmerriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.fontmuli {
+    Font-Family: 'Muli', Sans-Serif;
+}
+
+.fontsmincho {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.font-container-jp {
+    padding: 20px;
+    background-color: #704147;
+    color: lightgrey;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.italictext {
+    font-style: italic;
+}
+
+
+/*Text Styles Section*/
+
+.h2h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.h2p {
+    font-weight: 400;
+    font-size: 14px;
+}
